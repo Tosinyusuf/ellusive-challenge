@@ -66,7 +66,6 @@ body {
     font-size: 2em;
     background: #f3f3f5;
     width: 50px;
-    /* height :50px; */
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
@@ -127,14 +126,11 @@ li a {
     font-size: 15px;
     border: 1px solid rgba(200, 200, 200,0.31);
     cursor: pointer;
-    /* margin-left: 10px;
-    margin-right: 10px; */
 }
 img {
    max-width: 100%;
 
 }
-
  .myslides {
     display: none;
     position: relative;
@@ -143,7 +139,6 @@ img {
     cursor: pointer;
     position: absolute;
     top: -120px;
-    /* width: auto; */
     padding-top: 8px;
     padding-left: 13px;
     color:rgb(200, 200, 200);
@@ -173,8 +168,8 @@ img {
   padding: 0px;
   position: absolute;
   display: none;
-  top: 35px;
   z-index: 1;
+  top: 30px;
 }
 
 .head_btn {
@@ -187,8 +182,6 @@ img {
 } 
 .middle {
     right: 440px;
-
-
 }
 .right {
     right: 0;
@@ -456,7 +449,7 @@ a {
      border-radius: 20px;
      width: 100%;
  }
-@media (min-width:850px) {
+@media (min-width:1000px) {
     .top-arrow {
         text-align: center;
         margin-right: 40px;
@@ -704,15 +697,15 @@ a {
         display: none;
     }   
 }
-@media (min-width:1300px) {
+@media (min-width: 1100px) {
     .test {
         display: inline-block;
         color: #f2f2f2;
         font-size: 25px;
         padding: 20px;
         position: absolute;  
-        top: 10px;
         z-index: 1;
+        top: -40px;
     }
     .head_btn {
         display: block;
@@ -721,4 +714,19 @@ a {
         top: -70px;
         opacity: 1;
     }
+    .prev, .next {
+        top: -300px;
+    }
 }
+@media (min-width: 1400px) {
+    .test {
+        display: inline-block;
+        color: #f2f2f2;
+        font-size: 25px;
+        padding: 20px;
+        position: absolute;  
+        z-index: 1;
+        top: 30px;
+    }
+}
+
